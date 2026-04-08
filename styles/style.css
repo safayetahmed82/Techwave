@@ -302,3 +302,38 @@
     
   }
 }
+/* ................footer................ */
+
+.footer{
+   background:url(/assets/footer-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 412px;
+}
+.footer h4{
+  padding-top: 120px;
+  padding-bottom: 32px;
+}
+.footer ul li i{
+  margin-right:10px;
+}
+.footer ul li{
+  margin-right: 35px;
+  padding-bottom: 32px;
+}
+.footer ul{
+  margin-top: -10px;
+  margin-right: -50px;
+}
+@media screen and (max-width:576px){
+  .footer ul {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    
+  }
+   .youtube{
+    padding-left:70px;
+  }
+}
