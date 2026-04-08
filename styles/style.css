@@ -32,6 +32,7 @@
 .btn{
   margin-top: 10px;
   height: 35px;
+  
 }
 .ham{
   padding-top: 20px;
@@ -42,3 +43,173 @@
   }
    
 } */
+
+/* ..........banner......... */
+
+.banner{
+  background:url(/assets/hero-bg.png);
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  width: 100%;
+  height: 760px;
+}
+.banner-content{
+  
+  color: white;
+}
+.banner-images {
+  position: relative;
+  
+}
+.image1{
+  margin: -20px 100px;
+  margin-bottom: 40px;
+  width:auto;
+}
+.image2 {
+  position: absolute;
+  top: 85px;
+  left: 215px;
+  width:auto;
+}
+.image2:hover {
+  
+  animation: shake 0.3s ease-in-out infinite;
+  
+}
+@keyframes shake {
+  0%   { transform: rotate(-10deg); }
+  50%  { transform: rotate(10deg); }
+  100% { transform: rotate(-10deg); }
+}
+.new{
+    border-radius:1000px;
+    position:relative;
+    top: 40px;
+    left:370px;
+    
+
+}
+.banner-content p{
+  margin-top: 5px;
+}
+.double-btn{
+  
+  margin-top: 8px;
+   align-items: center;
+   justify-content: center;
+   gap:10px;
+   vertical-align: middle;
+}
+.double-btn .spotify a{
+  display: flex;
+  gap: 8px;
+}
+.double-btn .spotify  {
+  background:linear-gradient(45deg,#f7e93f,#FB09B4,#9100f8);
+  width:201px;
+  height: 44px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 1000px;
+  }
+
+.double-btn .messege a{
+  width: 147px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #00ff88;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: transparent;
+  border: 1px solid #00ff88;
+  padding-left: 20px;
+  border-radius: 1000px;
+  margin-top: 7px;
+  
+}
+/* ............about............ */
+.podcast{
+  padding-top:50px;
+}
+.podcast h2{
+  margin-bottom: 16px;
+}
+.graph h3{
+  color:#00ff88;
+  margin-top: 160px;
+  font-weight: bolder;
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.graph > div{
+  text-align: center;
+}
+@media screen and (max-width:576px){
+  .graph div{
+    margin-top: -120px;
+  }
+   
+}
+
+/* ...............choose........... */
+
+.choose{
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+.option .box {
+  padding-top: 30px;
+  padding-left: 40px;
+  gap: 16px;
+}
+.box.headphone img{
+  padding-top: 85px;
+}
+.box img  {
+  padding-bottom: 12px ;
+}
+.box h4  {
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 12px ;
+}
+.box p{
+  font-size: 16px;
+  font-weight:400;
+  line-height:24px;
+}
+  @media screen and (max-width:576px){
+  .why{
+    height:1550px;
+  }
+  .choose p{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top:-90px;
+    margin-bottom:-50px;
+  }
+  .option{
+    display:block;
+  }
+  .box{
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+   .headphone{
+    height:287px;
+   }
+  .exclusive{
+    height: 311px;
+  }
+  .mobile,.global,.rich{
+    height:214px;
+
+  }
+  .box.headphone img{
+  padding:0px ;
+}
+} 
