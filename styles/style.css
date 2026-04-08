@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  max-width: 1600px;
+  
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.container {
+  max-width: 75%;
+  width: 1200px;
+  margin: 0 auto;
+}
+.btn {
+  background:linear-gradient(45deg,#f7e93f,#FB09B4,#9100f8);
+  border: none;
+  padding: 12px 16px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+/* ...........nav............ */
+
+.menu ul li {
+  font-size: 16px;
+  font-weight:500;
+}
+.btn{
+  margin-top: 10px;
+  height: 35px;
+}
+.ham{
+  padding-top: 20px;
+}
+/* @media screen and (max-width:576px){
+  .menu, .btn{
+    display: none;
+  }
+   
+} */
