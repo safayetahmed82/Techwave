@@ -32,7 +32,9 @@
 .btn{
   margin-top: 10px;
   height: 35px;
-  
+}
+.btn i{
+  margin-left: 10px;
 }
 .ham{
   padding-top: 20px;
@@ -48,9 +50,9 @@
 
 .banner{
   background:url(/assets/hero-bg.png);
-  /* background-size: cover;
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   width: 100%;
   height: 760px;
 }
